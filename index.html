@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>SEGURNET</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+        <div class="logo">
+        <img class="img-logo" src="/img/logo-segurnet.jpg" alt="logo">
+        <h2>SEGURNET</h2>
+    </div>
+        <nav class="secciones">
+            <div class="section">
+            <a href="#planes">Servicios</a>
+        </div>
+            <div class="section"><a href="#nosotros">Nosotros</a>
+            </div>
+            <div class="section"><a href="#testimonios">Testimonios</a>
+            </div>
+            <div class="section"><a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+</header>   
+
+        <section id="hero"> 
+            <h1>Segurnet "La seguridad que realmente necesitas" <br> 
+                Servicios de Seguridad para Hogares y Empresas</h1>
+                <div class="hero-img">
+                <img src="img/casa-segurnet.jpg" alt="casa">
+            </div>
+        </section>
+
+        <section id="planes">
+            <h2>Planes de Seguridad</h2>
+<br>
+            <div class="planes-container">
+        <div class="planes"><h3>Plan Residencial</h3>
+            <p>Perfecto para proteger tu hogar y tu familia <br>
+            Incluye:</p>
+            <ul>
+            <li>Monitoreo de alarmas 24/7</li>
+            <li>Camaras de vigilancia</li>
+            <li>Control de acceso inteligente</li>
+            <li>Notificaciones en tiempo real</li>
+            <br>
+            <a href="#contacto"><button>¡Cotizá Ahora!</button></a>
+        </ul>
+    </div>
+            <div class="planes"><h3>Plan Empresarial</h3>
+            <p>Ideal para proteger tu negocio y empleados. <br>
+            Incluye:</p>
+            <ul>
+            <li>Monitoreo de alarmas y cámaras</li>
+            <li>Sistemas de control de acceso</li>
+            <li>Alertas personalizadas</li>
+            <li>Respuesta rápida a emergencias</li>
+            <br>
+            <a href="#contacto"><button>¡Cotizá Ahora!</button></a>
+        </ul>
+    </div>
+    </div>
+</div>
+        </section>
+
+        <section id="nosotros">
+            <br>
+            <h2>Sobre Nosotros</h2>
+            <div class="nosotros"><img src="img/nosotros1.jpg" alt="nosotros1"> 
+                <img src="img/nosotros2.jpg" alt="nosotros2">
+            </div>
+            <p>SegurNet nació de la pasión por la seguridad y la tecnología de 
+                un grupo de amigos que se conocieron mientras estudiaban ingeniería 
+                en sistemas. Con el deseo de aplicar sus conocimientos para hacer del mundo un lugar más seguro, 
+                decidieron fundar una empresa dedicada a brindar soluciones integrales de seguridad. 
+                Al principio, SegurNet operaba desde un pequeño local en el centro de la ciudad, ofreciendo servicios básicos de 
+                monitoreo de alarmas y sistemas de video vigilancia. Con el tiempo, la empresa fue creciendo y ampliando su gama de servicios para 
+                satisfacer las necesidades de seguridad de sus clientes. Hoy en día, SegurNet es reconocida como líder en el sector de la seguridad, con una 
+                amplia red de clientes satisfechos que confían en nuestros servicios para proteger sus hogares y negocios. Nuestro equipo de expertos en seguridad 
+                trabaja arduamente para ofrecer soluciones innovadoras y efectivas que garanticen la tranquilidad de nuestros clientes. En SegurNet, creemos que todos 
+                tienen derecho a sentirse seguros en su entorno. Por eso, nos esforzamos cada día por ofrecer servicios de seguridad de alta calidad que protejan lo que más 
+                valoran nuestros clientes: su seguridad y la de sus seres queridos.</p>
+        </section>
+
+        <main id="contacto">
+        <h2>Contacto</h2>
+        <p>Rellene los siguientes campos para ser atendido a la brevedad:</p>
+        <div class="formulario">
+        <form action="enviar_solicitud.php" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+    
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" id="nombre" name="apellido" required><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono" required><br><br>
+    
+            <div class="selector">
+            <label for="plan">Plan:</label>
+                    <SELECT name="area" placeholder="Elija una area a donde enviar" class="select" maxlength="255" value="" id="SelectName">
+                	<OPTION VALUE="hogar">Residencial</OPTION><OPTION VALUE="negocio">Empresarial</OPTION>					</SELECT>
+            </div>
+
+            <label for="direccion">Dirección:</label><br>
+            <input type="text" id="direccion" name="direccion" required><br><br>
+    
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+    
+            <input type="submit" value="Enviar">
+        </div>
+        </main>
+
+        <main id="testimonios">
+            <h1>Testimonios <br> ¿Que opinan nuestros clientes?</h1>
+            <h2>Hogares</h2>
+            <ul>
+            <li>
+            <p>
+                <strong>María García - Buenos Aires:</strong>
+                "Estoy muy contenta con el servicio de SegurNet. 
+                Desde que instalé su sistema de seguridad en mi casa, me siento mucho más segura. <br> 
+                La atención al cliente es excelente y siempre están disponibles para responder mis preguntas."
+            </p>
+            </li>
+            <li>
+                
+            <p>
+                <strong>Juan Pérez - Córdoba:</strong>
+                "Contraté a SegurNet para proteger mi hogar y no podría estar más satisfecho. <br>
+                Su sistema de monitoreo es muy efectivo y me da tranquilidad saber que mi familia está segura. 
+                Recomiendo SegurNet a todos mis amigos y familiares."
+            </p>
+            </li>
+        </ul>
+        <h2>Empresas</h2>
+        <ul>
+            <li>
+                <p>
+                    <strong>Pedro Martínez - Pyme en Buenos Aires:</strong>
+                    "Como propietario de una pequeña empresa, la seguridad es una de mis principales preocupaciones. 
+                    SegurNet ha sido un socio confiable en la protección de mi negocio. <br> 
+                    Su atención personalizada y su rápida respuesta a las alarmas me han impresionado."
+                </p>
+            </li>
+            <li>
+            <p>
+                <strong>Laura Fernández - Empresa en Córdoba:</strong>
+                "Desde que contratamos a SegurNet para proteger nuestra empresa, hemos notado una mejora significativa en la seguridad. <br>
+                Su equipo profesional y sus sistemas de seguridad avanzados nos han dado la tranquilidad que estábamos buscando."
+            </p>
+            </li>
+        </ul>
+    </div>
+        </main>
+  <footer>
+    <ul>
+    <div class="icons">
+    <img src="img/ring-phone.png" alt="phone">
+    <li><a href="tel:+5491123456789"><p>Teléfono: +54 9 11 2345 6789</p></a></li>
+</div>
+    <div class="icons">
+        <img src="img/email.png" alt="mail">
+    <li><a href="mailto:info@segurinet.com"><p>Correo electrónico: info@segurinet.com</p></a></li>
+</div>
+<div class="icons">
+    <img src="img/instagram.png" alt="ig">
+    <li><a href="https://www.instagram.com/"><p>Instagram: @segurinetarg</p></a></li>
+    </div>
+    <div class="icons">
+        <img src="img/facebook.png" alt="fb">
+    <li><a href="https://www.facebook.com/"><p>Facebook: /segurinetargentina</p></a></li>
+    </div>
+    <div class="icons"><img src="img/youtube.png" alt="yt">
+    <li><a href="https://www.youtube.com/"><p>YouTube: /segurinetargentina</p></a></li>
+</div>
+</ul>
+    <p class="copy">&copy; Segurinet 2024</p>
+</div>
+  </footer>
+</body>
+</html>
