@@ -11,15 +11,21 @@ header{
     align-items: center;    
 }
 
-@media (max-width:550px){
+@media (max-width: 800px) {
+
     header{
         flex-direction: column;
+        height: 300px;
     }
     nav{
+        flex-direction: column;
         padding: 10px 0px;
     }
     .planes-container {
         flex-direction: column; 
+    }
+    .espacio{
+        margin-top: 50px; /* O la cantidad de espacio que desees */
     }
 
     .planes {
@@ -30,6 +36,26 @@ header{
         font-size: 1em; /* Aumentar el tamaño de fuente */
         padding: 8px 16px; /* Aumentar el padding para hacer los enlaces más fáciles de tocar */
     }
+    .secciones .section {
+        margin-bottom: 10px; 
+    }
+
+    #hero {
+        padding-top: 50px; /* Ajusta el espacio superior del hero section */
+        margin-bottom: 20px; /* Añade margen inferior para separar del contenido siguiente */
+    }
+
+    #planes, #nosotros, #contacto, #testimonios {
+        padding-top: 20px; /* Ajusta el espacio superior de las secciones */
+        margin-top: 20px; /* Ajusta el margen superior de las secciones */
+    }
+    .hero-img img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
     .nosotros img {
         max-width: 100%; /* Limitar el ancho de las imágenes al ancho del contenedor */
         margin: 10px 0; /* Ajustar el margen para un mejor espaciado */
